@@ -1,5 +1,5 @@
 ## About
-
+This is a simple app that can create new instances of coffee including the date of their creation and the caffeine content as well as posts regarding specific types of coffee where you can rate them and share your thoughts on them.
 
 
 
