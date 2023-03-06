@@ -1,0 +1,192 @@
+.top-div{
+    display: flex;
+    justify-content: center;
+    /* gap: 2em; */
+}
+
+/* .posts-and-button{
+    display: flex;
+    flex-direction: column;
+} */
+
+.sub-post-butt-div{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 1em;
+    border-top-left-radius: 10px;
+    border-left: 2px solid rgb(171, 105, 49);
+    border-bottom: 2px solid rgb(236, 212, 186);
+    /* width: 50em; */
+}
+
+.title-input{
+    padding-left: 1em;
+    border-top: none;
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-left: 2px solid rgb(171, 105, 49);
+    border-bottom: 2px solid rgb(171, 105, 49);
+    width: 21em;
+    height: 3em;
+}
+
+.coffee-post-input{
+    border-top: none;
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-left: 2px solid rgb(171, 105, 49);
+    border-bottom: 2px solid rgb(171, 105, 49);
+}
+
+.postform-rating-input{
+    border-top: none;
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-left: 2px solid rgb(171, 105, 49);
+    border-bottom: 2px solid rgb(171, 105, 49);
+    width: 6em;
+    padding-left: 1em;
+    margin-right: 2em;
+}
+
+.delete-post-button{
+    border-left: 2px solid rgb(171, 105, 49);
+    border-bottom: 2px solid rgb(171, 105, 49);
+    border-radius: 5px 10px  5px  10px;
+    position: relative;
+    left: 200px;
+}
+
+.delete-coffee-button{
+    border-left: 2px solid rgb(171, 105, 49);
+    border-bottom: 2px solid rgb(171, 105, 49);
+    border-radius: 5px 10px  5px  10px;
+    margin-left: 1em;
+}
+
+.primary-coffees-div{
+    padding-left: 2em;
+}
+
+.sub-post-butt-div-two{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 1em;
+    /* padding-left: 10em; */
+    position: relative;
+}
+
+.posts-button{
+    height: 2em;
+    border-radius: 5px 15px  5px  15px;
+    border-color: rgb(236, 212, 186);
+}
+
+.posts-button-postform{
+    height: 2em;
+    border-radius: 5px 15px  5px  15px;
+    border-color: rgb(236, 212, 186);
+    width: 21em;
+}
+
+.mapped-posts-divs{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: 50em;
+    height: auto;
+    border-bottom: 2px dashed rgb(236, 212, 186);
+    /* padding: 0 55px */
+}
+
+.sub-mapped-posts-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.filter-func-div{
+    padding-top: 2em;
+    padding-bottom: .5em;
+    display: flex;
+    /* gap: 10em; */
+    font-weight: bold;
+}
+
+.ordering-input{
+    position: relative;
+    left: 550px;
+}
+
+
+.elem-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.textbody-mapped-sub{
+    width: 19.4em;
+    overflow-wrap: break-word;
+}
+
+.post-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    gap: 1em;
+}
+
+.createpost-ta{
+    width: 21em;
+    height: 14em;
+    resize: none;
+}
+
+.coffees-form{
+    border-radius: 5px 15px  5px  15px;
+    border: 2px solid rgb(171, 105, 49);
+    border-color: rgb(171, 105, 49);
+    position: absolute;
+    top: 50px;
+    right: 380px;
+    z-index: 5;
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.mapped-coff-arr{
+    border-top: none;
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-left: 2px solid rgb(171, 105, 49);
+    border-bottom: 2px solid rgb(171, 105, 49);
+    margin-bottom: 1em;
+    padding-left: 1em;
+}
+
+.coffeeform-submit{
+    height: 2em;
+    border-radius: 5px 15px  5px  15px;
+    border-color: rgb(171, 105, 49);
+    margin-top: 1em;
+    width: 6em;
+}
+
+.mugimg{
+    height: .8em;
+    width: .8em;
+}
+
+.new-coffess-div{
+    font-weight: bold;
+    padding-bottom: .5em;
+}

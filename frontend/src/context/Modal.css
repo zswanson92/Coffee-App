@@ -1,0 +1,35 @@
+#modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(171, 105, 49);
+  }
+
+  #modal-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(171, 105, 49);
+  }
+
+  #modal-content {
+    position: absolute;
+    background-color:white;
+    border-radius: 5px 15px  5px  15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(171, 105, 49);
+    border-color: rgb(171, 105, 49);
+  }
