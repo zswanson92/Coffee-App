@@ -23,10 +23,6 @@ This is a simple app that can create new instances of coffee including the date 
    ```bash
    pipenv shell
    ```
-   
-   ```bash
-   flask db migrate
-   ```
 
    ```bash
    flask db upgrade
